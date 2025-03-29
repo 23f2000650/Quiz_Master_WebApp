@@ -1,0 +1,5 @@
+venv/lib/python*/site-packages/
+venv/Include/
+venv/bin/python*
+venv/bin/activate*
+venv/bin/pip*

@@ -1,0 +1,11 @@
+#To start redis server
+redis-server
+
+#To start celery worker
+celery -A app.celery worker --loglevel=info
+
+#To start celery beat
+celery -A app.celery beat --loglevel=info
+
+#To stop the redis server
+sudo systemctl stop redis
